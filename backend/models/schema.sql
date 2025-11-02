@@ -1,0 +1,19 @@
+CREATE TABLE IF NOT EXISTS students (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT,
+  phone TEXT,
+  due_date TEXT
+);
+
+CREATE TABLE IF NOT EXISTS payments (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  student_id INTEGER,
+  amount REAL,
+  date TEXT
+);
+
+CREATE TABLE IF NOT EXISTS otps (
+  phone TEXT PRIMARY KEY,
+  otp TEXT,
+  expires_at TEXT
+);
