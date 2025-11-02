@@ -1,4 +1,4 @@
-const API = 'http://localhost:5000/api/auth';
+const API = 'https://fee-finance-backend-1.onrender.com/api/auth';
 
 function sendOTP() {
   const phone = document.getElementById('phone').value;
