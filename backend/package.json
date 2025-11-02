@@ -1,7 +1,7 @@
 {
   "name": "fee-finance-backend",
   "version": "1.0.0",
-  "description": "Modular backend for fee and finance management with OTP and SMS alerts",
+  "description": "Modular backend for fee and finance management with OTP verification, SMS alerts, and SQLite storage. Designed for reproducible deployment and academic documentation.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -15,7 +15,10 @@
     "sqlite",
     "twilio",
     "backend",
-    "api"
+    "api",
+    "modular",
+    "reproducible",
+    "academic"
   ],
   "author": "Rishik H N Gowda",
   "license": "ISC",
