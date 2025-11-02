@@ -1,4 +1,4 @@
-const API = 'http://localhost:5000/api/fees';
+const API = 'https://fee-finance-backend-1.onrender.com/api/fees';
 
 document.getElementById('studentForm').addEventListener('submit', function(e) {
   e.preventDefault();
